@@ -30,10 +30,9 @@ public class question11 {
     System.out.println("If the current population is " + population + "and there is one" +
             " birth every 7 seconds, one death every 13 seconds, and one immigrant" +
             " every 45 seconds the population will be:");
+        
     System.out.println("After one year: " + (population + calc));
-
     //Help to figure out how to do the next 4 calculations
-
     System.out.println("After two years: " + (population + calc));
     System.out.println("After three years: " + (population + calc));
     System.out.println("After four years: " + (population + calc));
