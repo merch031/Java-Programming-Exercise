@@ -1,4 +1,4 @@
-public class question01pt10 {
+class question01pt10 {
     public static void main(String[] args){
 
     // Chapter 1 Question 10
