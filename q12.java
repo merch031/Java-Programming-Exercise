@@ -47,6 +47,6 @@ public class Main {
         // output the result
         System.out.println("Average speed: " + averageSpeedKph + " kilometers per hour");
     */
-        
+
     }
 }
