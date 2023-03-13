@@ -25,7 +25,7 @@ public class question11 {
     long birthsPerYr = secondsPerYr / 7L;
     long deathsPerYr = secondsPerYr / 13L;
     long immigrantsPerYr = secondsPerYr / 45L;
-    long calc = secondsPerYr - deathsPerYr + immigrantsPerYr;
+    long calc = birthsPerYr - deathsPerYr + immigrantsPerYr;
 
     System.out.println("If the current population is " + population + " and there is one" +
             " birth every 7 seconds, one death every 13 seconds, and one immigrant" +
@@ -42,7 +42,6 @@ public class question11 {
     System.out.println("After three years: " + yearThree);
     System.out.println("After four years: " + yearFour);
     System.out.println("After five years: " + yearFive);
-
 
     }
 }
